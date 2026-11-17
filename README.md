@@ -14,6 +14,13 @@ This portfolio brings three complementary consulting workflows into one small Py
 | [Quantitative GRC Risk Engine](docs/02-quantitative-grc-risk.md) | How large is the modeled annual loss, and how might a proposed control change the business case? | SLE, ALE, estimated loss reduction, annual net benefit, ROI, payback, and SOC 2 control status/gaps |
 | [Vendor RFP Risk Matrix](docs/03-vendor-rfp-risk-matrix.md) | What evidence and contract protections should procurement resolve before onboarding a vendor? | Weighted 0–100 score, pass/conditional/fail outcome, evidence gaps, and SOW topics |
 
+## Additional project case studies
+
+These two documented projects are separate from the three runnable CLI modules above. Their summaries, assumptions, and limitations are linked here; supporting source files and datasets were not available in the supplied project folder.
+
+- [Identity Governance Automation](docs/04-identity-governance-automation.md) — synthetic identity access review, SQL risk checks, and remediation reporting.
+- [AI Risk and Control Monitor](docs/05-ai-risk-control-monitor.md) — NIST AI RMF control tracking and prompt-test reporting.
+
 ## Run locally
 
 Requires Python 3.9 or later. No third-party packages are used.
@@ -54,7 +61,7 @@ A demonstration vendor with dimension scores `4, 5, 3, 2, 3` receives `72/100` a
 ```text
 cyber_risk_suite.py       Interactive three-engine application
 README.md                 Portfolio overview and quick start
-docs/                     Individual case studies and interview notes
+docs/                     Case studies, project notes, and interview notes
 ```
 
 ## Roadmap
